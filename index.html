@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="author" content="رياضي لغرف النوم">
+	<link rel="shortcut icon" href="./file/logo.jpeg" type="image/jpeg">
+
+	<title>رياضي لغرف النوم | تفصيل وبيع أحدث غرف النوم بالرياض | 0539325101</title>
+	<meta name="description" content="متخصصون في تفصيل وبيع غرف النوم المودرن والكلاسيك بأعلى جودة وأفضل الأسعار بالرياض. الدفع بعد الاستلام والمعاينة، اتصل بنا الآن: 0539325101">
+	<meta name="keywords" content="غرف نوم, غرف نوم الرياض, تفصيل غرف نوم, رياضي لغرف النوم, اثاث الرياض, دواليب, دريسنج روم">
+
+	<!-- Favicons -->
+	<link rel="icon" href="./file/logo.jpeg">
+	<link rel="apple-touch-icon" href="./file/logo.jpeg">
+
+	<!-- Framework Stylesheets -->
+	<link rel="stylesheet" href="./file/bootstrap.min.css">
+	<link rel="stylesheet" href="./file/all.min.css">
+	<link rel="stylesheet" href="./file/tiny-slider.css">
+	<link rel="stylesheet" href="./file/style.css">
+
+	<!-- Web Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+	<style>
+		/* ==========================================
+		   1. GENERAL STYLES & RESET
+		   ========================================== */
+		:root {
+			--primary-color: #3b5d50;
+			--secondary-color: #f9bf29;
+			--dark-color: #2f2f2f;
+			--light-color: #f8f9fa;
+			--white-color: #ffffff;
+			--accent-color: #d9534f;
+			--border-color: #e2e8f0;
+			--text-muted: #6c757d;
+			--shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+			--shadow-md: 0 5px 15px rgba(0,0,0,0.1);
+			--shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+			--transition-fast: all 0.2s ease-in-out;
+			--transition-normal: all 0.3s ease-in-out;
+		}
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: 'Cairo', sans-serif !important;
+			background-color: var(--light-color);
+			color: var(--dark-color);
+			overflow-x: hidden;
+			line-height: 1.7;
+		}
+
+		a {
+			text-decoration: none;
+			transition: var(--transition-fast);
+		}
+
+		/* ==========================================
+		   2. FLOATING ACTION BUTTONS
+		   ========================================== */
+		.floating-btn-container {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			z-index: 999999;
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+
+		.btn-floating {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+			padding: 12px 24px;
+			border-radius: 50px;
+			color: var(--white-color) !important;
+			font-weight: 700;
+			font-size: 16px;
+			box-shadow: var(--shadow-lg);
+			transition: var(--transition-normal);
+		}
+
+		.btn-floating:hover {
+			transform: translateY(-3px) scale(1.03);
+			color: var(--white-color);
+		}
+
+		.btn-floating-phone {
+			background-color: #007bff;
+		}
+
+		.btn-floating-phone:hover {
+			background-color: #0056b3;
+		}
+
+		.btn-floating-whatsapp {
+			background-color: #25d366;
+		}
+
+		.btn-floating-whatsapp:hover {
+			background-color: #1da851;
+		}
+
+		/* ==========================================
+		   3. NAVBAR STYLING
+		   ========================================== */
+		.custom-navbar {
+			background-color: #1a252f !important;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			box-shadow: var(--shadow-md);
+		}
+
+		.custom-navbar .navbar-brand img {
+			max-height: 50px;
+			border-radius: 6px;
+		}
+
+		.custom-navbar .nav-link {
+			font-weight: 600;
+			font-size: 15px;
+			color: rgba(255, 255, 255, 0.85) !important;
+			padding: 8px 16px !important;
+			transition: var(--transition-fast);
+		}
+
+		.custom-navbar .nav-link:hover,
+		.custom-navbar .nav-item.active .nav-link {
+			color: var(--secondary-color) !important;
+		}
+
+		/* ==========================================
+		   4. HERO SECTION
+		   ========================================== */
+		.hero-section {
+			background: linear-gradient(135deg, #2c3e50 0%, #3b5d50 100%);
+			padding: 80px 0;
+			color: var(--white-color);
+			position: relative;
+		}
+
+		.hero-title {
+			font-size: 48px;
+			font-weight: 800;
+			line-height: 1.3;
+			margin-bottom: 20px;
+		}
+
+		.hero-title span {
+			color: var(--secondary-color);
+		}
+
+		.hero-subtitle {
+			font-size: 22px;
+			color: #e0e0e0;
+			margin-bottom: 25px;
+			font-weight: 600;
+		}
+
+		.hero-description {
+			font-size: 16px;
+			color: rgba(255, 255, 255, 0.8);
+			margin-bottom: 30px;
+		}
+
+		.hero-image-wrap {
+			position: relative;
+			border-radius: 15px;
+			overflow: hidden;
+			box-shadow: var(--shadow-lg);
+			border: 4px solid rgba(255, 255, 255, 0.2);
+		}
+
+		.hero-image-wrap img {
+			width: 100%;
+			height: 420px;
+			object-fit: cover;
+		}
+
+		/* ==========================================
+		   5. CARDS & GALLERY SYSTEM
+		   ========================================== */
+		.custom-card {
+			background: var(--white-color);
+			border-radius: 12px;
+			border: 1px solid var(--border-color);
+			overflow: hidden;
+			margin-bottom: 30px;
+			box-shadow: var(--shadow-sm);
+			transition: var(--transition-normal);
+		}
+
+		.custom-card:hover {
+			transform: translateY(-8px);
+			box-shadow: var(--shadow-lg);
+		}
+
+		.custom-card-img {
+			width: 100%;
+			height: 280px;
+			object-fit: cover;
+			background-color: #eee;
+			display: block;
+		}
+
+		.custom-card-body {
+			padding: 15px;
+			text-align: center;
+		}
+
+		.custom-card-title {
+			font-size: 16px;
+			font-weight: 700;
+			color: var(--dark-color);
+			margin: 0;
+		}
+
+		/* ==========================================
+		   6. VIDEO PLAYER CONTAINER
+		   ========================================== */
+		.video-card-container {
+			background: #000;
+			border-radius: 15px;
+			overflow: hidden;
+			margin-bottom: 30px;
+			box-shadow: var(--shadow-md);
+			position: relative;
+		}
+
+		.video-card-container video {
+			width: 100%;
+			height: 380px;
+			object-fit: cover;
+			display: block;
+		}
+
+		/* ==========================================
+		   7. SECTION HEADINGS
+		   ========================================== */
+		.main-section-title {
+			font-size: 36px;
+			font-weight: 800;
+			color: var(--dark-color);
+			text-align: center;
+			margin-bottom: 15px;
+			position: relative;
+		}
+
+		.main-section-title::after {
+			content: '';
+			display: block;
+			width: 80px;
+			height: 4px;
+			background: var(--secondary-color);
+			margin: 10px auto 0;
+			border-radius: 2px;
+		}
+
+		.main-section-subtitle {
+			text-align: center;
+			color: var(--text-muted);
+			font-size: 18px;
+			margin-bottom: 50px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Navigation Bar -->
+	<nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="./file/logo.jpeg" alt="رياضي لغرف النوم">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="mainNavbar">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item active"><a class="nav-link" href="#hero">الرئيسية</a></li>
+					<li class="nav-item"><a class="nav-link" href="#featured">الأصناف المميزة</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+					<li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
+					<li class="nav-item"><a class="nav-link" href="#catalog">كتالوج الصور</a></li>
+					<li class="nav-item"><a class="nav-link" href="#videos">فيديوهات المعرض</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">اتصل بنا</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Spacer for Fixed Navbar -->
+	<div style="height: 80px;"></div>
+
+	<!-- Hero Section -->
+	<section id="hero" class="hero-section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 mb-4 mb-lg-0">
+					<h1 class="hero-title">رياضي لغرف النوم <span>بالرياض</span></h1>
+					<h2 class="hero-subtitle">أسعار تبدأ من 1300 ريال - المعاينة والدفع عند الاستلام</h2>
+					<p class="hero-description">متخصصون في تفصيل غرف النوم المودرن، الكلاسيك، الدواليب السحاب، والدريسنج روم بأعلى معايير الخشب الفاخر والرفع التلقائي للمقاس مجاناً.</p>
+					<div class="d-flex gap-3 mt-4">
+						<a href="https://wa.me/966534330190" class="btn btn-warning btn-lg fw-bold btn-track-whatsapp" target="_blank">تواصل عبر الواتساب</a>
+						<a href="tel:+966534330190" class="btn btn-outline-light btn-lg fw-bold btn-track-call">اتصل بنا الآن</a>
+					</div>
+				</div>
+				<div class="col-lg-6 text-center">
+					<div class="hero-image-wrap">
+						<img src="./file/photo_5816559619701586900_y.jpg" alt="غرفة نوم راقية">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Featured Offers Section -->
+	<section id="featured" class="py-5">
+		<div class="container">
+			<h2 class="main-section-title">العروض المميزة والتصاميم المختارة</h2>
+			<p class="main-section-subtitle">تصفح أحدث التصاميم التي تمت صناعتها خصيصاً لتناسب المنازل العصريّة</p>
+
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586901_y.jpg" class="custom-card-img" alt="غرفة مودرن فاخرة">
+						<div class="custom-card-body">
+							<h3 class="custom-card-title">غرفة نوم مودرن فاخرة</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586902_y.jpg" class="custom-card-img" alt="سرير معلق خشب">
+						<div class="custom-card-body">
+							<h3 class="custom-card-title">سرير معلق مودرن مع إضاءة</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586903_x.jpg" class="custom-card-img" alt="دريسنج روم">
+						<div class="custom-card-body">
+							<h3 class="custom-card-title">غرفة ملابس (دريسنج روم)</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Us Section -->
+	<section id="about" class="py-5 bg-white">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 mb-4 mb-lg-0">
+					<h2 class="main-section-title text-start">من نحن - رياضي لغرف النوم</h2>
+					<p class="text-muted lead mb-4">نحن مؤسسة متخصصة في تصميم، تفصيل، وبيع كافة أنواع غرف النوم والدواليب في مدينة الرياض خبرة تمتد لسنوات طويلة.</p>
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<div class="p-3 border rounded">
+								<h4 class="fw-bold fs-5 text-primary"><i class="fas fa-truck me-2"></i> توصيل وتركيب</h4>
+								<p class="text-muted fs-6 mb-0">توصيل سريع وتركيب محترف داخل الرياض وخارجها.</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-3">
+							<div class="p-3 border rounded">
+								<h4 class="fw-bold fs-5 text-primary"><i class="fas fa-hammer me-2"></i> تفصيل حسب الطلب</h4>
+								<p class="text-muted fs-6 mb-0">ننفذ جميع التصاميم والمقاسات بأعلى جودة خشب.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 text-center">
+					<img src="./file/why-choose-us-img.jpg" class="img-fluid rounded shadow-lg" alt="عن الشركة">
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- Services Section -->
+	<section id="services" class="py-5 bg-light">
+		<div class="container">
+			<h2 class="main-section-title">خدماتنا المتميزة</h2>
+			<p class="main-section-subtitle">نقدم خدمات متكاملة لتجهيز غرف النوم من الألف إلى الياء</p>
+
+			<div class="row text-center">
+				<div class="col-md-4 mb-4">
+					<div class="p-4 bg-white rounded shadow-sm border h-100">
+						<div class="fs-1 text-primary mb-3"><i class="fas fa-ruler-combined"></i></div>
+						<h3 class="h5 fw-bold">رفع المقاسات مجاناً</h3>
+						<p class="text-muted fs-6">يقوم فريقنا بزيارة موقعك لرفع المقاسات بدقة متناهية لضمان تطابق الأثاث مع مساحة الغرفة.</p>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="p-4 bg-white rounded shadow-sm border h-100">
+						<div class="fs-1 text-primary mb-3"><i class="fas fa-couch"></i></div>
+						<h3 class="h5 fw-bold">تصميم وحسب الطلب</h3>
+						<p class="text-muted fs-6">نصمم لك الغرفة أو الدولاب بالصورة والشكل الذي تتخيله بالظبط وبكافة الألوان والمواصفات.</p>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="p-4 bg-white rounded shadow-sm border h-100">
+						<div class="fs-1 text-primary mb-3"><i class="fas fa-hand-holding-usd"></i></div>
+						<h3 class="h5 fw-bold">الدفع بعد الاستلام</h3>
+						<p class="text-muted fs-6">ثقتكم هي هدفنا، لذلك لا يتم الدفع النهائي إلا بعد التركيب الكامل والمعاينة الجودة في منزلك.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Comprehensive Catalog Gallery -->
+	<section id="catalog" class="py-5 bg-white">
+		<div class="container">
+			<h2 class="main-section-title">معرض الصور والكتالوج الشامل</h2>
+			<p class="main-section-subtitle">تصفح مجموعة كاملة من أعمالنا المصورة من غرف النوم، الدواليب، والدريسنج روم</p>
+
+			<div class="row">
+
+				<!-- مجموعة غرف نوم عادية وكلاسيكية -->
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (1).jpeg" class="custom-card-img" alt="غرفة نوم 1">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة نوم مودرن (1)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (2).jpeg" class="custom-card-img" alt="غرفة نوم 2">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة نوم كلاسيك (2)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (3).jpeg" class="custom-card-img" alt="غرفة نوم 3">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دولاب سحاب حديث (3)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (4).jpeg" class="custom-card-img" alt="غرفة نوم 4">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة نوم وطني ممتازة (4)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (5).jpeg" class="custom-card-img" alt="غرفة نوم 5">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تسريحة مودرن إضاءة (5)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (7).jpeg" class="custom-card-img" alt="غرفة نوم 7">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دولاب زجاج فاخر (7)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (8).jpeg" class="custom-card-img" alt="غرفة نوم 8">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">طقم غرفة نوم مزدوج (8)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (9).jpeg" class="custom-card-img" alt="غرفة نوم 9">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">سرير مريح خشب زان (9)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (10).jpeg" class="custom-card-img" alt="غرفة نوم 10">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تفصيل غرفة مخصص (10)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (11).jpeg" class="custom-card-img" alt="غرفة نوم 11">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة نوم عرسان (11)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (12).jpeg" class="custom-card-img" alt="غرفة نوم 12">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دولاب واسع 6 أبواب (12)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (15).jpeg" class="custom-card-img" alt="غرفة نوم 15">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">خشب وطني عالي الجودة (15)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/غرف نوم (19).jpeg" class="custom-card-img" alt="غرفة نوم 19">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">سرير وتسريحة كلاسيك (19)</h4>
+						</div>
+					</div>
+				</div>
+
+				<!-- مجموعة الصور الحصرية PHOTO_... -->
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586904_x.jpg" class="custom-card-img" alt="تصميم 6904">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">خزانة زجاج أسود (6904)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586905_x.jpg" class="custom-card-img" alt="تصميم 6905">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دولاب سحاب زجاج (6905)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586906_y.jpg" class="custom-card-img" alt="تصميم 6906">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دريسنج روم مفتوح (6906)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586907_x.jpg" class="custom-card-img" alt="تصميم 6907">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">خزانة ملابس زاوية (6907)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586908_x.jpg" class="custom-card-img" alt="تصميم 6908">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تقسيمات دريسنج روم (6908)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586909_y.jpg" class="custom-card-img" alt="تصميم 6909">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دواليب رفوف مضاءة (6909)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586910_x.jpg" class="custom-card-img" alt="تصميم 6910">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">دولاب زجاجي ألومنيوم (6910)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586911_y.jpg" class="custom-card-img" alt="تصميم 6911">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة نوم طراز إيطالي (6911)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/photo_5816559619701586912_y.jpg" class="custom-card-img" alt="تصميم 6912">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة رمادي منجد (6912)</h4>
+						</div>
+					</div>
+				</div>
+
+				<!-- تصاميم M, G, B -->
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/m (1).jpg" class="custom-card-img" alt="مودرن M1">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تصميم مودرن رمادي (M1)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/m (2).jpg" class="custom-card-img" alt="مودرن M2">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">ديكور سرير مضاء (M2)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/m (3).jpg" class="custom-card-img" alt="مودرن M3">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة شبابية وعصرية (M3)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/m (4).jpg" class="custom-card-img" alt="مودرن M4">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تفصيل خزانة وتسريحة (M4)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/g (1).png" class="custom-card-img" alt="أطفال G1">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة نوم بناتي وردية (G1)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/g (2).png" class="custom-card-img" alt="أطفال G2">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تصميم أطفال حديث (G2)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/g (3).png" class="custom-card-img" alt="أطفال G3">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">سرير منجد وردي (G3)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/b (1).png" class="custom-card-img" alt="شبابي B1">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة أطفال أزرق مودرن (B1)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/b (2).png" class="custom-card-img" alt="شبابي B2">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تفصيل سرير ودولاب (B2)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/b (3).png" class="custom-card-img" alt="شبابي B3">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تصميم شبابي فخم (B3)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/b (4).png" class="custom-card-img" alt="شبابي B4">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">تصاميم مع إضاءة LED (B4)</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="custom-card">
+						<img src="./file/b (5).png" class="custom-card-img" alt="شبابي B5">
+						<div class="custom-card-body">
+							<h4 class="custom-card-title">غرفة شبابي سماوي (B5)</h4>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Videos Section -->
+	<section id="videos" class="py-5 bg-light">
+		<div class="container">
+			<h2 class="main-section-title">معرض الفيديوهات التفاعلي</h2>
+			<p class="main-section-subtitle">شاهد التشطيب والجودة العالية واقعياً من داخل المعرض والورشة</p>
+
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-4">
+					<div class="video-card-container">
+						<video controls preload="metadata" playsinline muted poster="./file/صوره فيديو٢.jpg" class="app-video-player">
+							<source src="./file/1.mp4" type="video/mp4">
+							<source src="1.mp4" type="video/mp4">
+							المتصفح لا يدعم التشغيل.
+						</video>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="video-card-container">
+						<video controls preload="metadata" playsinline muted poster="./file/صوره فيديو٣.jpg" class="app-video-player">
+							<source src="./file/2.mp4" type="video/mp4">
+							<source src="2.mp4" type="video/mp4">
+							المتصفح لا يدعم التشغيل.
+						</video>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="video-card-container">
+						<video controls preload="metadata" playsinline muted poster="./file/photo_5816559619701586900_y.jpg" class="app-video-player">
+							<source src="./file/3.mp4" type="video/mp4">
+							<source src="3.mp4" type="video/mp4">
+							المتصفح لا يدعم التشغيل.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer Section -->
+	<footer id="contact" class="bg-dark text-white pt-5 pb-3">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col-md-4 mb-4 mb-md-0">
+					<h3 class="h4 text-warning fw-bold mb-3">رياضي لغرف النوم</h3>
+					<p class="text-muted fs-6">نحن الخيار الأول لغرف النوم بمدينة الرياض. جودة عالية في الخشب، دقة في المواعيد، وأسعار تنافسية تناسب الجميع مع ضمان المعاينة عند الاستلام.</p>
+				</div>
+				<div class="col-md-4 mb-4 mb-md-0 text-md-center">
+					<h4 class="h5 mb-3 fw-bold">روابط سريعة</h4>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="#hero" class="text-white-50">الرئيسية</a></li>
+						<li class="mb-2"><a href="#catalog" class="text-white-50">المعرض الشامل</a></li>
+						<li class="mb-2"><a href="#videos" class="text-white-50">فيديوهات الأعمال</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h4 class="h5 mb-3 fw-bold">تواصل معنا</h4>
+					<p class="text-white-50 mb-2"><i class="fas fa-phone me-2 text-warning"></i> 0539325101</p>
+					<p class="text-white-50 mb-2"><i class="fab fa-whatsapp me-2 text-warning"></i> 0539325101</p>
+					<p class="text-white-50"><i class="fas fa-map-marker-alt me-2 text-warning"></i> المملكة العربية السعودية - الرياض</p>
+				</div>
+			</div>
+			<hr class="border-secondary">
+			<div class="row text-center">
+				<div class="col-12">
+					<p class="mb-0 text-white-50 fs-6">جميع الحقوق محفوظة &copy; <script>document.write(new Date().getFullYear());</script> رياضي لغرف النوم بالرياض.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Floating Action Buttons Container -->
+	<div class="floating-btn-container">
+		<a href="https://wa.me/966534330190" class="btn-floating btn-floating-whatsapp btn-track-whatsapp" target="_blank">
+			<i class="fab fa-whatsapp fs-4"></i> واتساب: 0539325101
+		</a>
+		<a href="tel:+966534330190" class="btn-floating btn-floating-phone btn-track-call">
+			<i class="fas fa-phone-alt fs-5"></i> اتصل الآن: 0539325101
+		</a>
+	</div>
+
+	<!-- Core JavaScript Libraries -->
+	<script src="./file/bootstrap.bundle.min.js"></script>
+	<script src="./file/tiny-slider.js"></script>
+	<script src="./file/custom.js"></script>
+
+	<!-- Advanced Video Fallback Player & Tracking Script -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// إصلاح معالجة الفيديوهات لعملها بسلاسة على كل الأجهزة والجوالات
+			const appVideos = document.querySelectorAll('.app-video-player');
+			appVideos.forEach(function(video) {
+				video.addEventListener('click', function() {
+					if (video.paused) {
+						video.play().catch(function(err) {
+							console.log("تنبيه التشغيل: ", err);
+						});
+					} else {
+						video.pause();
+					}
+				});
+			});
+
+			// نظام تتبع النقرات بدون تكرار إهدار ميزانية الإعلان
+			let lastClickTimestamp = 0;
+			const cooldownMs = 2500;
+
+			function handleTracking(eventName) {
+				const now = new Date().getTime();
+				if (now - lastClickTimestamp < cooldownMs) {
+					return;
+				}
+				lastClickTimestamp = now;
+
+				if (typeof ttq !== 'undefined') {
+					ttq.track(eventName);
+				}
+			}
+
+			document.querySelectorAll('.btn-track-whatsapp').forEach(function (btn) {
+				btn.addEventListener('click', function () {
+					handleTracking('Contact_WhatsApp');
+				});
+			});
+
+			document.querySelectorAll('.btn-track-call').forEach(function (btn) {
+				btn.addEventListener('click', function () {
+					handleTracking('Contact_PhoneCall');
+				});
+			});
+		});
+	</script>
+
+</body>
+</html>
